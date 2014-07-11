@@ -28,6 +28,7 @@ png("plot4.png", width=480, height=480)
 ## set the number of rows and columns for the plots
 par(mfrow = c(2,2))
 
+##plot
 with (power2, {
   ##row 1, col 1 plot
   plot(date_time, Global_active_power, pch=NA_integer_ , ylab = "Global Active Power (kilowatts)", xlab = "")
